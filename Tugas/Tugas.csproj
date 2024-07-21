@@ -36,10 +36,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="daftar_tugas.cs" />
     <Compile Include="list.cs" />
     <Compile Include="main.cs" />
-    <Compile Include="status.cs" />
     <Compile Include="tipe.cs" />
     <Compile Include="variabel.cs" />
   </ItemGroup>
