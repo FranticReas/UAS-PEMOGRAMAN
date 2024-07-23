@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Tugas
 {
-    public class TugasKerja : variabel //Pewarisan
+    public class TugasKerja : variabel, ITugas //Pewarisan
     {
         public string deskripsi {  get; set; }
         public TugasKerja(string Tugas, string DeadLine, string desk) : base (Tugas, DeadLine)

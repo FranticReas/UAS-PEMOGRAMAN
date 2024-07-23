@@ -18,23 +18,27 @@ namespace Tugas
             Console.WriteLine("1. Tambah Tugas Kerja, 2. Tambah Tugas Pribadi, 3. Lihat Tugas, 4. Keluar");
                 Console.Write("Pilihan : ");
             string pilihan = Console.ReadLine();
-
+            Console.Clear();
             switch (pilihan)
             {
                 case "1":
                     {
-                        TambahTugasKerja(daftar);
+                            Console.Clear();
+                            TambahTugasKerja(daftar);
                         break;
                     }
                 case "2":
                     {
-                        TambahTugasPribadi(daftar);
+                            Console.Clear();
+                            TambahTugasPribadi(daftar);
                         break;
                     }
                 case "3":
                     {
-                        daftar.Print();
-                        break;
+                            Console.Clear();
+                            daftar.Print();
+                            Console.ReadLine();
+                            break;
                     }
                 case "4":
                     {
@@ -44,7 +48,8 @@ namespace Tugas
                 default:
                     {
                         Console.WriteLine("Pilihan tidak valid");
-                        break;
+                            Console.ReadLine();
+                            break;
                     }
             }
         }

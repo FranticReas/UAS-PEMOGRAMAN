@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Tugas
 {
-    public abstract class variabel //Abstraksi
+    public abstract class variabel : ITugas //Abstraksi
     {
         private string tugas {  get; set; } //Enkapsulasi
         private string deadline {  get; set; }

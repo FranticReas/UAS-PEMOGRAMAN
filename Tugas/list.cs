@@ -8,11 +8,11 @@ namespace Tugas
 {
     public class Daftar
     {
-        public List<variabel> variabels;
+        public List<ITugas> variabels;
 
         public Daftar()
         {
-            variabels = new List<variabel>();
+            variabels = new List<ITugas>();
         }
         public void Add(variabel Variabel)
         {

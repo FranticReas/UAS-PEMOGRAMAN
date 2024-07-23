@@ -36,6 +36,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ITugas.cs" />
     <Compile Include="list.cs" />
     <Compile Include="main.cs" />
     <Compile Include="tipe.cs" />
